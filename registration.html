@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleRegistration.css">
+</head>
+<body>
+    
+
+
+
+<div class="innerBody">
+    <div class="formContainer">
+        <div class="formHeader">
+            <h2>Registration Form</h2>
+        </div>
+        <form action="" onsubmit="return false" class="formClass" id="formId">
+            
+            <div class="form-control">
+                <label>Email</label>
+                <input type="Email" id="signUpEmail" autocomplete="off" placeholder="Enter your Email Adress.">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" id="signUpPassword" autocomplete="off" placeholder="Enter password here.">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <input type="submit" value="Submit" class="btn" onclick="signUpFunc()">
+        </form>
+        
+    </div>
+    <div class="formContainer">
+        <div class="formHeader">
+            <h2>Login Form</h2>
+        </div>
+        <form action="" onsubmit="return false" class="formClass" id="formId">
+          
+            <div class="form-control">
+                <label>Email</label>
+                <input type="Email" id="loginEmail" autocomplete="off" placeholder="Enter your Email Adress.">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+        
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" id="loginPassword" autocomplete="off" placeholder="Enter password here.">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            
+            <input type="submit" value="Submit" class="btn" onclick="loginFunc()">
+        </form>
+        
+    </div>
+</div>
+ 
+
+<!-- footer Starts Here -->
+<footer>
+    <div>
+        <a href="./index.html"><h1>Jeans<span>WearUp</span>.com</h1></a> 
+        <p>Grab the Fashion</p>
+    </div>
+    <div>
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-phone"></i>
+        <p>Developed by M JunaiD Tai</p>
+    </div>
+    <div>
+        <p>@ Copyright All Right Reserved</p>
+    </div>
+</footer>
+<!-- footer Ends Here -->
+<script src="app.js"></script>
+</body>
+</html>
